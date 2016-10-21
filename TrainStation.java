@@ -35,7 +35,17 @@ public class TrainStation
         return totalDosMaquinas;
     }
 	
-	
+	/**
+	 * mt que muestra la venta de dos billetes
+	 */
+	public void vendeADosMaquinas()
+    {
+       machine1.introduzcaDinero(300); 
+       machine2.introduzcaDinero(300);
+        machine1.imprimirBillete();
+        machine2.imprimirBillete();
+       
+    }
 }
 
 
