@@ -75,4 +75,11 @@
         // Clear the balance.
         balance = 0;
     }
+    
+    /**
+     * retorna el total.
+     */
+    public int getTotal(){
+        return total;
+    }
 }
