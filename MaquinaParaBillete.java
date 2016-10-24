@@ -35,7 +35,7 @@
      */
     public int obtenerPrecio()
     {
-        return precio;
+          return precio;
     }
 
     /**
@@ -82,4 +82,26 @@
     public int getTotal(){
         return total;
     }
+    
+    /**
+     * mt para fijar un nuevo precio que se reciba por parámetro.
+     */
+    public void ponerNuevoPrecio(int nuevoPrecio){
+        precio = nuevoPrecio;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
