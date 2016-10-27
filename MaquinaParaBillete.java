@@ -19,9 +19,7 @@
     private int total;
 
     /**
-     * Create a machine that issues tickets of the given price.
-     * Note that the price must be greater than zero, and there
-     * are no checks to ensure this.
+    
      * 0345 Modifica el constructor de la clase TicketMachine para que no reciba parámetros sino que el precio de los billetes sea siempre de 800.
      */
     public MaquinaParaBillete()
@@ -32,7 +30,7 @@
     }
     
     /**
-     * 0345 nuevo constructor  que recibe un parámetro para fijar el precio. Crea una máquina usando un constructor y otra usando el otro.
+     * 0345 nuevo constructor  que recibe un parámetro para fijar el precio.
      */
     public MaquinaParaBillete(int coste)
     {
@@ -114,7 +112,7 @@
      * pantalla: The price of a ticket is XXX euros (teniendo en cuenta que en lugar de XXXdebe aparecer el precio de billete).
      */
     public void mostrarBillete(){
-        System.out.println("El precio del billete es de" +precio+ " €.");
+        System.out.println("El precio del billete es de " +precio+ " €.");
     }
 }
 
