@@ -84,10 +84,18 @@
     }
     
     /**
-     * mt para fijar un nuevo precio que se reciba por parámetro.
+     * mt para fijar un nuevo precio que se reciba por parámetro, (es un método modificador).
      */
     public void ponerNuevoPrecio(int nuevoPrecio){
         precio = nuevoPrecio;
+    }
+    
+    /**
+     *0998 Añade un método llamado prompt a la clase TicketMachine que no devuelva nada y que no tenga parámetros. El método debe imprimir por 
+     *pantalla lo siguiente: Please, insert the correct amount of money.
+     */
+    public void rapido(){
+        System.out.println("Porfavor, inserte la cantidad de dinero correcta.");
     }
 }
 
