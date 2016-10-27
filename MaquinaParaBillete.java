@@ -22,6 +22,17 @@
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
+     * 0345 Modifica el constructor de la clase TicketMachine para que no reciba parámetros sino que el precio de los billetes sea siempre de 800.
+     */
+    public MaquinaParaBillete()
+    {
+        precio = 800;
+        balance = 0;
+        total = 0;
+    }
+    
+    /**
+     * 0345 nuevo constructor  que recibe un parámetro para fijar el precio. Crea una máquina usando un constructor y otra usando el otro.
      */
     public MaquinaParaBillete(int coste)
     {
