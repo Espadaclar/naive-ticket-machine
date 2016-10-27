@@ -97,6 +97,14 @@
     public void rapido(){
         System.out.println("Porfavor, inserte la cantidad de dinero correcta.");
     }
+    
+    /**
+     * 0998 Añade un método llamado showPrice a la clase TicketMachine que no devuelva nada y que no tenga parámetros. El método debe imprimir por 
+     * pantalla: The price of a ticket is XXX euros (teniendo en cuenta que en lugar de XXXdebe aparecer el precio de billete).
+     */
+    public void mostrarBillete(){
+        System.out.println("El precio del billete es de" +precio+ " €.");
+    }
 }
 
 
